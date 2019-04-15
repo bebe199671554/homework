@@ -1,0 +1,63 @@
+    @import "normalize";
+    body {
+        font-size: 16px;
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        font-family: "Segoe UI", "微軟正黑體", sans-serif;
+        font-family: '微軟正黑體';
+    }
+    
+    #box {
+        position: relative;
+        top: 10px;
+        left: calc(50% - 75px);
+        width: 150px;
+        height: 200px;
+        border: 2px rgb(53, 52, 52) solid;
+        overflow: hidden;
+        // left: calc(30% - 75px);
+        // float: left;
+    }
+    
+    .lottbg {
+        position: absolute;
+        float: left;
+        width: 150px;
+        height: 200px;
+        background-color: rgb(77, 108, 122);
+        background-image: url(../images/bg_150X200.png);
+        border: 1px rgb(150, 146, 146) none;
+        line-height: 180px;
+        z-index: 1;
+        // &::before {
+        //     width: 150px;
+        //     height: 200px;
+        //     border: 2px rgb(53, 52, 52) solid;
+        // }
+    }
+    
+    // .kumago {
+    //     position: relative;
+    //     top: 10px;
+    //     left: calc(30% - 75px);
+    //     width: 150px;
+    //     height: 200px;
+    //     border: 2px rgb(53, 52, 52) solid;
+    //     z-index: 2;
+    //     // position: absolute;
+    //     // animation-name: anmi;
+    //     // animation-duration: 1s;
+    //     // animation-iteration-count: infinite;
+    //     // animation-timing-function: step-start;
+    // }
+    // @keyframes anmi {
+    //     0% {
+    //         background-position: -15px -13px;
+    //     }
+    //     6.25% {
+    //         background-position: -210px -13px;
+    //     }
+    //     /* 12.5% ~ 93.75% 請看範例原始碼 */
+    //     100% {
+    //         background-position: -592px -470px;
+    //     }
+    // }

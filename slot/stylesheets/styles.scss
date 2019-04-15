@@ -1,0 +1,149 @@
+    @import "normalize";
+    body {
+        font-size: 16px;
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        font-family: "Segoe UI", "微軟正黑體", sans-serif;
+        font-family: '微軟正黑體';
+        background-color: #32535e;
+    }
+    
+    @mixin photo($url, $width, $height) {
+        width: $width;
+        height: $height;
+        background: url($url) no-repeat;
+        background-size: 100% 100%;
+        text-indent: 110%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    table {
+        background-color: #738992;
+        border-radius: 20px;
+    }
+    
+    td {
+        border: 1px #32535e solid;
+        padding: 0px 0PX 20PX 0PX;
+    }
+    
+    .btn {
+        text-align: center;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgb(214, 86, 86);
+        outline: none;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+    }
+    
+    .btn:hover {
+        background-color: rgb(167, 55, 55);
+    }
+    
+    .btn:active {
+        background-color: rgb(167, 55, 55);
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    
+    .pop {
+        background: url("https://c2.staticflickr.com/2/1860/44569187522_301b42f1cf_o.png") no-repeat;
+        overflow: hidden;
+        vertical-align: bottom;
+        width: 480px;
+        height: 480px;
+        max-width: 480px;
+        max-height: 480px;
+        background-position: 50% 50%;
+    }
+    
+    .puttop {
+        padding-bottom: 200px;
+    }
+    
+    .o1 {
+        @include photo("http://icons.iconarchive.com/icons/chanut/role-playing/96/Unicorn-icon.png",
+        96px,
+        96px);
+    }
+    
+    .o2 {
+        @include photo("http://icons.iconarchive.com/icons/chanut/role-playing/96/Adventure-Map-icon.png",
+        96px,
+        96px);
+    }
+    
+    .o3 {
+        @include photo("http://icons.iconarchive.com/icons/chanut/role-playing/96/Armor-icon.png",
+        96px,
+        96px);
+    }
+    
+    .o4 {
+        @include photo("http://icons.iconarchive.com/icons/chanut/role-playing/96/Bow-Arrow-icon.png",
+        96px,
+        96px);
+    }
+    
+    .o5 {
+        @include photo("http://icons.iconarchive.com/icons/chanut/role-playing/96/Castle-icon.png",
+        96px,
+        96px);
+    }
+    
+    .o6 {
+        @include photo("http://icons.iconarchive.com/icons/chanut/role-playing/96/Centaur-icon.png",
+        96px,
+        96px);
+    }
+    
+    .o7 {
+        @include photo("http://icons.iconarchive.com/icons/chanut/role-playing/96/Destructive-Magic-icon.png",
+        96px,
+        96px);
+    }
+    
+    .o8 {
+        @include photo("http://icons.iconarchive.com/icons/chanut/role-playing/96/Food-icon.png",
+        96px,
+        96px);
+    }
+    
+    .o9 {
+        @include photo("http://icons.iconarchive.com/icons/chanut/role-playing/96/Monster-icon.png",
+        96px,
+        96px);
+    }
+    
+    .bolder {
+        // border: 2px solid;
+        margin: 0px auto;
+    }
+    
+    .container {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .cent {
+        margin: 0px auto;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .outl {
+        outline: 2px #ffffff solid;
+        box-shadow: #ffffff 0 0 12px;
+        transition: all .1s;
+    }
+    
+    .outl-none {
+        transition: all .2s;
+    }

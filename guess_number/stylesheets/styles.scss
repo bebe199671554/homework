@@ -1,0 +1,89 @@
+    @import "normalize";
+    body {
+        font-size: 16px;
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        font-family: "Segoe UI", "微軟正黑體", sans-serif;
+        font-family: '微軟正黑體';
+    }
+    
+    .computerfrom {
+        text-align: center;
+        width: 350px;
+        height: 600px;
+        max-width: 482px;
+        max-height: 584px;
+        background-color: #ececec;
+        padding: 4px;
+    }
+    
+    .tit {
+        padding: 6px;
+    }
+    
+    .bt {
+        text-align: center;
+        border: none;
+        background-color: #f3f3f3;
+        width: 115px;
+        height: 80px;
+        line-height: 80px;
+        max-width: 115px;
+        max-height: 75px;
+        margin: 0 1px;
+        &:hover {
+            background-color: #d5d5d5;
+            border: 2 px #adadad solid;
+        }
+    }
+    
+    .btm {
+        &:hover {
+            background-color: #0077d7;
+            border: 1 px #0063b3 solid;
+        }
+    }
+    
+    .btnum {
+        text-align: center;
+        border: none;
+        background-color: #fbfbfb;
+        width: 115px;
+        height: 75px;
+        line-height: 80px;
+        max-width: 115px;
+        max-height: 75px;
+        margin: 0 1px;
+        &:hover {
+            background-color: #d5d5d5;
+            border: 2 px #adadad solid;
+        }
+    }
+    
+    .btnn {
+        text-align: center;
+        border: none;
+        background-color: #fbfbfb;
+        width: 345px;
+        height: 80px;
+        line-height: 80px;
+        max-width: 345px;
+        max-height: 80px;
+        margin: 0 1px;
+        &:hover {
+            background-color: #d5d5d5;
+            border: 2 px #adadad solid;
+        }
+    }
+    
+    .re {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #answertext {
+        margin: 10 4px;
+    }
+    
+    div {
+        margin: 1px;
+    }
